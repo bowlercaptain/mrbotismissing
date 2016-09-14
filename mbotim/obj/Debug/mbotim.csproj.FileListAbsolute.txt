@@ -1,0 +1,8 @@
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\bin\Debug\mbotim.exe.config
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\bin\Debug\mbotim.exe
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\bin\Debug\mbotim.pdb
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\bin\Debug\ChatSharp.dll
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\bin\Debug\ChatSharp.pdb
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\obj\Debug\mbotim.csprojResolveAssemblyReference.cache
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\obj\Debug\mbotim.exe
+c:\users\rmock\documents\visual studio 2015\Projects\mbotim\mbotim\obj\Debug\mbotim.pdb
