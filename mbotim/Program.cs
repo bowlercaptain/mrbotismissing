@@ -23,6 +23,8 @@ namespace mbotim
             client.ConnectionComplete += (s, e) =>
             { client.JoinChannel("#mrhappyismissing"); Console.WriteLine("Connected!"); };
 
+      
+
             client.ChannelMessageRecieved += (s, e) =>
             {
                 Console.WriteLine(e.PrivateMessage.User+": "+e.PrivateMessage.Message);
@@ -53,7 +55,15 @@ namespace mbotim
             client.UserJoinedChannel += (s, e) =>
             {
                 Console.WriteLine(e.User.Nick + " joined channel.");
-                e.Channel.SendMessage("KappaRoss / " + e.User.Nick + "!");
+                if (e.User.Nick.Contains("bobmock"))
+                {
+                    e.Channel.SendMessage("/CAP REQ: twitch.tv / membership");
+                    Console.WriteLine("But it's meeeee");
+                }
+                else
+                {
+                    e.Channel.SendMessage("KappaRoss / " + e.User.Nick + "!");
+                }
             };
 
             client.ConnectAsync();
